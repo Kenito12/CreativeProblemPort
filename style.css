@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#loaderWrapper{
+    overflow: hidden;
+    height: 100%;
+}
+
+
+@keyframes LoadingAnim{
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes LoadingAnimFadeOut{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#animateBG{
+    animation: LoadingAnim ease-in-out 2s;
+    background-color: #EDA5C2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#landingpage{
+    background-color: #EDA5C2;
+    width: 100%;
+    height: 100vh;
+}
+
+#landingpage > div > h1{
+    text-align: center;
+    font-size: 68px;
+    color: white;
+}
+
+.smalllogo{
+    max-width: 7.34375%;
+    padding-top: 2.6041%;
+    padding-left: 2.6041%;
+}
