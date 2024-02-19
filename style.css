@@ -64,3 +64,61 @@ body{
     padding-top: 2.6041%;
     padding-left: 2.6041%;
 }
+
+#cardWrapper{
+    position: relative;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    gap: 200px;
+}
+
+#cardWrapper > div{
+    width: 328px;
+    height: 415px;
+    background-color: white;
+    border-radius: 50px;
+    filter: drop-shadow( 1px 4px rgba(117, 117, 117, 0.5));
+    vertical-align: middle;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+#cardWrapper > div:hover{
+    transform: scale(90%);
+    cursor: pointer;
+}
+
+#cardWrapper >div >h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+    color: #EDA5C2;
+}
+
+#unit1{
+    width: 265px;
+}
+#unit3{
+    width: 180px;
+}
+
+.welcome{
+    font-size: 101px !important;
+    margin-bottom: 0;
+}
+
+.Hi{
+    font-size: 68px !important;
+    margin-top: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
