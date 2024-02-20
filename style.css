@@ -123,3 +123,16 @@ a{
     text-decoration: none;
 }
 
+#unit1Page{
+    background-color: #EDA5C2;
+    color: white;
+    margin: 0;
+    padding: 50px;
+}
+
+.Unitlogo{
+    width: 100px;
+    height: auto;
+    float: right;
+}
+
