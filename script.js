@@ -1,10 +1,19 @@
 console.log(document.URL)
 
+//Pages
 const loadingPage = document.getElementById("loaderWrappers");
 const landingPage = document.getElementById("landingpage");
+const unit1Page = document.getElementById("unit1Page");
+const unit2Page = document.getElementById("unit2Page");
+const unit3Page = document.getElementById("unit3Page");
+const unit4Page = document.getElementById("unit4Page");
 
+
+//Set page default 
+loadingPage.style.display = 'none'
 landingPage.style.display = 'none'
 
+// Landing Page button
 const unitButton1 = document.getElementById("UnitButton1")
 const unitButton2 = document.getElementById("UnitButton2")
 const unitButton3 = document.getElementById("UnitButton3")

@@ -14,7 +14,6 @@ body{
 }
 
 #loaderWrapper{
-    overflow: hidden;
     height: 100%;
 }
 
@@ -49,18 +48,19 @@ body{
 
 #landingpage{
     background-color: #EDA5C2;
-    width: 100%;
+    width: 100vw ;
     height: 100vh;
 }
 
 #landingpage > div > h1{
     text-align: center;
-    font-size: 68px;
+    font-size: 60px;
     color: white;
 }
 
 .smalllogo{
-    max-width: 7.34375%;
+    width: 100px;
+    height: auto;
     padding-top: 2.6041%;
     padding-left: 2.6041%;
 }
@@ -71,14 +71,14 @@ body{
     margin-left: 50px;
     margin-right: 50px;
     justify-content: center;
-    gap: 200px;
+    gap: 7%;
 }
 
 #cardWrapper > div{
-    width: 328px;
-    height: 415px;
+    width: 230px;
+    height: 292px;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 40px;
     filter: drop-shadow( 1px 4px rgba(117, 117, 117, 0.5));
     vertical-align: middle;
     position: relative;
@@ -95,27 +95,28 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 36px;
+    font-size: 27px;
     font-weight: 500;
     margin: 0;
     color: #EDA5C2;
 }
 
 #unit1{
-    width: 265px;
+    width: 200px;
 }
 #unit3{
-    width: 180px;
+    width: 145px;
 }
 
 .welcome{
-    font-size: 101px !important;
+    font-size: 90px !important;
     margin-bottom: 0;
+    margin-top: 50px;
 }
 
-.Hi{
-    font-size: 68px !important;
-    margin-top: 0;
+.hi{
+    font-size: 50px !important;
+    margin-top:0;
 }
 
 a{
