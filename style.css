@@ -17,6 +17,14 @@ body{
     height: 100%;
 }
 
+p{
+    max-width: 960px;
+}
+
+li{
+    max-width: 960px;
+}
+
 
 @keyframes LoadingAnim{
     0%{
@@ -50,6 +58,20 @@ body{
     background-color: #EDA5C2;
     width: 100vw ;
     height: 100vh;
+
+}
+
+#finalSum {
+    max-width: 950px;
+    margin: 0 auto;
+
+    p{
+        color: white;
+    }
+    h3{
+        color: white;
+    }
+
 }
 
 #landingpage > div > h1{
@@ -130,9 +152,53 @@ a{
     padding: 50px;
 }
 
-.Unitlogo{
-    width: 100px;
+#unit2Page{
+    background-color: #EDA5C2;
+    color: white;
+    margin: 0;
+    padding: 50px;
+    height: 100%;
+}
+#unit3Page{
+    background-color: #EDA5C2;
+    color: white;
+    margin: 0;
+    padding: 50px;
+    height: 100%;
+}
+#unit3Page > img{
+    width: 70%;
     height: auto;
-    float: right;
+}
+#unit4Page{
+    background-color: #EDA5C2;
+    color: white;
+    margin: 0;
+    padding: 50px;
+    height: 100%;
+}
+#unit5Page{
+    background-color: #EDA5C2;
+    color: white;
+    margin: 0;
+    padding: 50px;
+    height: 100vh;
 }
 
+.Unitlogo{
+    width: 100px !important;
+    height: auto;
+    float: right;
+    transition: all ease-in-out 0.3s;
+}
+.Unitlogo:hover{
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+.unit1img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
